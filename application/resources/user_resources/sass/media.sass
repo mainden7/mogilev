@@ -1,0 +1,320 @@
+/*==========  Desktop First Method  ==========*/	
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 996px) 
+	h1
+		font-size: 36px
+	h2
+		font-size: 26px
+	h3
+		font-size: 16px
+	aside
+		width: 50px
+		padding-right: 50px
+		padding-bottom: 50px
+		height: 100%
+		overflow: hidden
+	section
+		padding: 65px 70px 120px 120px
+	footer
+		padding: 0 70px 0 120px
+	section,
+	footer
+		margin-left: 0px
+		min-width: 100%
+	#main-sec .mouse-icon
+		margin-left: 10px
+	#main-sec
+		padding: 65px 70px 120px 120px
+		.descr
+			max-width: 450px !important
+	.logo
+		position: relative
+		padding: 0
+		width: 50px
+		a
+			padding: 10px
+			display: block
+		img
+			width: 30px
+			margin-bottom: 0
+		p
+			border-left: 1px solid rgba(255, 255, 255, 0.1)
+			position: absolute
+			padding-left: 20px
+			left: 50px
+			top: 0
+			line-height: 50px
+			height: 52px
+			width: 100vw
+			text-align: left
+	.small-menu
+		position: relative
+		width: 23px
+		height: 18px
+		cursor: pointer
+		margin: 14px
+		text-align: center
+		font-size: 24px
+		div
+			position: absolute
+			height: 2px
+			background: #fff
+			left: 0
+			top: 50%
+			width: 100%
+			margin-top: -1px
+	.bars-transform
+		div
+			opacity: 0
+	.bars-transform:before,
+	.bars-transform:after
+		position: absolute
+		transition: .2s
+		content: ''
+		left: 0
+		width: 100%
+		height: 2px
+		background: #fff
+		transform-origin: left
+	.bars-transform:before
+		transform: rotateZ(45deg)
+	.bars-transform:after
+		transform: rotateZ(-45deg)
+	.small-menu:before,
+	.small-menu:after
+		transition: .2s
+		position: absolute
+		content: ''
+		left: 0
+		width: 100%
+		height: 2px
+		background: #fff
+	.small-menu:before
+		top: 0
+	.small-menu:after
+		bottom: 0
+	.active-menu
+		width: 100%
+	.sidebar-content
+		position: relative
+		overflow: auto
+		height: 100%
+		background: #05152d
+		margin: -46px 0 0 50px
+		text-align: left
+		padding-bottom: 50px
+	.main-nav
+		padding-top: 40px
+	.nav-arrow
+		transform: rotateZ(-90deg)
+	.nav>li:hover .nav-arrow
+		transform: rotateZ(90deg)
+		color: #f9423e
+		opacity: .5
+	.nav .active>a
+		padding: 0 30px 0 40px
+		background: transparent
+	.nav .active ul
+		left: 0
+		opacity: 1
+	.nav .active .nav-arrow
+		right: 30px
+		transform: rotateZ(90deg)
+	.nav .active .second-lvl-menu
+		height: inherit
+	.nav .active .second-lvl-menu ul
+		left: 0
+		opacity: 1
+		height: 100%
+		transition: .3s .3s
+	aside .second-lvl-menu
+		font-size: 11px
+		position: relative
+		left: 50px
+		opacity: 1
+		height: 0
+		visibility: visible
+		ul
+			position: relative
+			opacity: 0
+			left: -100%
+			overflow: hidden
+		li
+			opacity: 0
+			transform: none
+	.second-lvl-bg
+		display: none
+	.descr
+		width: auto !important
+		font-size: 13px
+	#our-products
+		.items
+			text-align: center
+	#our-products li
+		font-size: 16px
+		height: auto
+		min-height: 180px
+		width: 40%
+		.item-text,
+		.item-image
+			display: block
+			width: 100%
+		.item-text
+			margin-bottom: 20px
+	#about
+		padding-bottom: 200px
+	#about .slider
+		padding-right: 35px
+	#about .description-box
+		font-size: 12px
+		width: 350px
+		min-height: 150px
+		padding: 30px 20px
+		.nextSlider,
+		.prevSlider
+			height: 35px
+			width: 35px
+			line-height: 35px
+			top: -35px
+		.prevSlider
+			right: 35px
+	#geografy
+		font-size: 12px
+		.features-text
+			width: 70%
+		li
+			padding-right: 15px
+	#news
+		.news-header
+			font: 700 13px/1.3em 'PT Sans', sans-serif
+		.news-brief
+			font-size: 12px
+		.news-date
+			font-size: 12px
+	#pop-up
+		width: 500px
+		padding: 40px
+		.mfp-close
+			top: 50px
+		li
+			width: 130px
+			font-size: 12px !important
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	h1
+		font-size: 16px
+	h2
+		font-size: 15px
+	h3
+		font-size: 11px
+	section,
+	footer
+		padding: 35px 30px 100px 80px
+		margin-left: 0px
+		min-width: 100%
+	.sidebar-extra
+		font-size: 13px
+	.logo p
+		max-width: 270px
+		font-size: 12px
+		padding-left: 10px
+	.main-nav
+		font-size: 11px
+	.second-nav
+		font-size: 12px
+	aside .second-lvl-menu a
+		padding: 0
+	aside .second-lvl-menu
+		left: 35px
+	.nav .active > a
+		padding: 0 30px 0 20px
+	.nav > li > a
+		padding: 0 30px 0 20px
+	.nav .active .second-lvl-menu ul
+		margin: 10px 0
+	.descr
+		font-size: 12px
+	#main-sec
+		padding: 130px 30px 100px 60px
+	#main-sec .btn-catalog
+		line-height: 40px
+		padding: 0 35px
+		font-size: 14px
+	#our-products
+		.items
+			text-align: center
+			a
+				font-size: 12px
+		li
+			display: block
+			max-width: 500px
+			width: 100%
+			margin: 20px auto 0 !important
+	#about
+		padding: 45px 0 200px 0
+		.slider
+			padding-right: 0
+			padding-left: 50px
+		.sec-number,
+		h2,
+		.descr
+			padding: 0 40px 0 90px
+		.description-box
+			top: auto
+			font-size: 11px
+			width: 100%
+			padding-left: 70px
+			max-width: none
+			height: 200px
+			bottom: -200px
+			.slider-text
+				overflow: auto
+			li a
+				font-size: 12px
+	#geografy li
+		margin-top: 40px
+		width: 100%
+		display: block
+		text-align: center
+		.features-icon
+			display: block
+			text-align: center
+			margin: 0 auto 20px
+	#news li
+		width: 100%
+		min-height: 180px
+		display: block
+		margin: 20px 0 0 0 !important
+	footer
+		flex-direction: column
+		line-height: 1.4em
+		font-size: 12px
+		padding: 35px 30px 35px 80px
+		.done-by
+			margin-top: 30px
+	#pop-up
+		width: 400px
+		padding: 40px
+		.mfp-close
+			top: 50px
+		li
+			width: 130px
+			font-size: 11px !important
+@media only screen and (min-width : 996px)
+	.small-menu
+		display: none !important
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	#pop-up
+		width: 280px
+		.mfp-close
+			top: 30px
+			right: 30px
+		ul
+			margin-top: 10px
+		li
+			width: 100%
+			margin: 20px 0 0 0 !important
+
+/* Custom, iPhone Retina */
+//@media only screen and (max-width : 320px) 
